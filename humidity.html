@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web Visualization Dashboard (Latitude)</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -16,7 +16,6 @@
     <!-- Navbar -->
     <nav class="navbar navbar-default">
         <div class="container">
-
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -36,14 +35,11 @@
                             <li><a href="temperature.html">Max Temperature</a></li>
                             <li><a href="humidity.html">Humidity</a></li>
                             <li><a href="cloudiness.html">Cloudiness</a></li>
-                            <li><a href="wind.html">
-                                
-                                
-                            </a></li>
+                            <li><a href="wind.html">Wind Speed</a></li>
                         </ul>
                     </li>
-                    <li><a href="comparison.html">Comparison</a></li>
-                    <li><a href="data.html">Data</a></li>
+                    <li><a href="./comparison.html">Comparison</a></li>
+                    <li><a href="./data.html">Data</a></li>
                 </ul>
             </div>
 
@@ -53,21 +49,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 summary">
-                <div class="subcontainer img-small">
-                    <h1>Summary: Lattitude vs .X</h1>
+                <div class="subcontainer img-fill">
+                    <h1>Humidity</h1>
                     <hr>
 
-                    <img src="./Resources/assets/images/Fig1.png" class="pull-left img-responsive">
-                    <p>
-                        The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis,
-                        we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                    </p>
-                    <p>
-                        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors
-                        we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-                        source data and visualizations created as part of the analysis, as well as explanations and descriptions
-                        of any trends and correlations witnessed.
-                    </p>
+                    <img src="./Resources/assets/images/Fig2.png" class="pull-left img-responsive">
+                    <span>
+                        "Most cities close to the equator have higher humidity%."
+                    </span>
                 </div>
             </div>
 
